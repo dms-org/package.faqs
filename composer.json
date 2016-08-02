@@ -18,8 +18,8 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "dms/core": "dev-master",
-        "dms/common.structure": "dev-master"
+        "dms/core": "^0.1",
+        "dms/common.structure": "^0.1"
     },
     "autoload-dev": {
         "psr-4": {
