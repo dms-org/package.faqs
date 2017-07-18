@@ -1,6 +1,7 @@
 {
-    "name": "dms/package.faqs",
+    "name": "dms-org/package.faqs",
     "description": "The generic FAQ's package for the DMS",
+    "license": "MIT",
     "authors": [
         {
             "name": "Elliot Levin",
@@ -8,9 +9,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories": [
-        {"type": "composer", "url": "https://api.package.studio/meta/composer"}
-    ],
     "autoload": {
         "psr-4": {
             "Dms\\Package\\Faq\\": "./src/"
@@ -18,16 +16,16 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "dms/core": "^0.1",
-        "dms/common.structure": "^0.1"
+        "dms-org/core": "^0.1",
+        "dms-org/common.structure": "^0.1"
     },
     "autoload-dev": {
         "psr-4": {
             "Dms\\Package\\Package\\Faq\\Tests\\": "./tests/Tests/",
-            "Dms\\Core\\Tests\\": "./vendor/dms/core/tests/Tests/"
+            "Dms\\Core\\Tests\\": "./vendor/dms-org/core/tests/Tests/"
         }
     },
     "require-dev": {
-        "dms/common.testing": "dev-master"
+        "dms-org/common.testing": "dev-master"
     }
 }
