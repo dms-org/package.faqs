@@ -25,7 +25,7 @@ class FaqLoaderServiceTest extends CmsTestCase
      */
     protected $service;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
